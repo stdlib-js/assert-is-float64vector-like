@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isFloat64VectorLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-float64vector-like@esm/index.mjs';
+import isFloat64VectorLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-float64vector-like@v0.1.0-esm/index.mjs';
 ```
 
 #### isFloat64VectorLike( value )
@@ -77,7 +77,7 @@ var bool = isFloat64VectorLike( arr );
 
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import isFloat64VectorLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-float64vector-like@esm/index.mjs';
+import isFloat64VectorLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-float64vector-like@v0.1.0-esm/index.mjs';
 
 var buffer = new Float64Array( [ 0, 0, 0, 0 ] );
 var arr = ndarray( 'float64', buffer, [ 4 ], [ 1 ], 0, 'row-major' );
